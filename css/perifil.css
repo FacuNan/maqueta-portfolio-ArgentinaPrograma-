@@ -1,0 +1,52 @@
+.perfil {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwriIkwpjGOIynWYgcnj0w7SZQOZJHtw0BmPATqgEyo5CWZuABSl1lXca59IsD8bzf6aQ&usqp=CAU) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 60px);
+
+}
+
+.perfil__info {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    z-index: 1;
+}
+
+.perfil__info-img img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: whitesmoke solid;
+    transition: all 500ms ease-out;
+}
+
+.perfil__info-img img:hover {
+    transform: scale(0.9)
+}
+
+.perfil__info-presentacion {
+    border: whitesmoke solid;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.perfil__info-presentacion span {
+    color: red;
+}
+
+.capa {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: calc(100vh - 60px);
+    z-index: 1;
+
+}

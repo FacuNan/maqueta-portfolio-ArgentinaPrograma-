@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/navegador.css">
+    <link rel="stylesheet" href="./css/perifil.css">
+    <link rel="stylesheet" href="./css/acercade-mi.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mi portfolio Argentina Programa</title>
+</head>
+
+<body>
+    <header>
+        <section class="navegador">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div>
+                    <a class="navbar-brand" href="./inicio.html"><img
+                            src="https://www.concordia.gob.ar/sites/all/themes/programar/images/arg-programa.png" alt=""
+                            class="rounded float-start" width="80px"></a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#acercade-mi">Acerca de mi </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#educacion">Educacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Skills</a>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Proyectos</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+
+    <main>
+
+        <section class="perfil">
+            <div class="capa">
+                <figcaption class="perfil__info">
+                    <div class="perfil__info-img">
+                        <h1><img src="https://img.freepik.com/foto-gratis/cerrar-hombre-escribiendo-codigo-computadora-portatil_158595-5169.jpg?w=740&t=st=1661593558~exp=1661594158~hmac=d45f7e2517bf577719be14823a71fa688dfc403600db49b9ae42ab119f34a0be"
+                                alt=""></h1>
+                    </div>
+                    <div class="perfil__info-presentacion">
+                        <h1> Hola mi nombre es <span>Facundo Comercio</span> y soy full stack developer JR</h1>
+                    </div>
+                </figcaption>
+            </div>
+        </section>
+
+
+        <section class="acercade-mi">
+
+            <h1>Acerca de mi</h1>
+
+            <div class="informacion">
+            <div class="informacion_basica">
+                <h3>Informacion básica</h3>
+
+                <ul class="informacion__basica-datos">
+                    <li style="display:flex"><strong>Nombre:</strong>
+                        <p class="nombre">Facundo</p><input type="button" class="infoPersonal" value="Editar">
+                        <input type="text" id="textoPer" placeholder="Nombre" style="display:none">
+                    </li>
+                    <li><strong>Apellido:</strong> Comercio</li>
+                    <li><strong>Fecha de nacimiento:</strong>12/03/1991 </li>
+
+                </ul>
+
+            </div>
+            <div class="informacion__basica-descripcion">
+            <h3>Acerca de mi</h3>
+
+            <input type="button" class="button" value="editar">
+            <input type="text" id="texto" style="display:none">
+            <p class="informacionP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id similique
+                architecto facilis laboriosam distinctio alias suscipit obcaecati itaque, quia cupiditate
+                laborum
+                officiis quaerat labore officia aliquid, explicabo possimus commodi error.</p>
+
+            </div>
+        </div>
+        </section>
+
+        <div class="experiencia" id="experiencia">
+            <div class="tituloPrincipal">
+                <h1>Experiencia Laboral</h1>
+            </div>
+            <div class="Experiencia" id="experiencia">
+
+                <div class="anio">
+                    <h2>2018-2022</h2>
+                    <h3>Full stack developer JR</h3>
+                </div>
+                <div class="detalles">
+                    <h2>Argentina Progarma</h2>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="educacion" id="educacion">
+            <div class="tituloPrincipal">
+                <h1>Educacion</h1>
+            </div>
+            <div class="Educacion" id="educacion">
+
+                <div class="anio">
+                    <h2>2018-2022</h2>
+                    <h3>titulo</h3>
+                </div>
+                <div class="detalles">
+                    <h2>Institucion</h2>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="skills" id="skills"></div>
+        <div class="proyectos" id="proyectos"></div>
+    </main>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
