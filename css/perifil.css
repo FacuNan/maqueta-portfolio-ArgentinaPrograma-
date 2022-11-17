@@ -33,11 +33,50 @@
     background-color: rgba(0, 0, 0, 0.7);
     width: 500px;
     height: 200px;
-    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    border-radius: 10px;
+    align-items: center;
+}
+
+.perfil__info-presentacion h1 {
+    font-size: 30px;
+    white-space: nowrap;
+    word-break: break-all;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate,
+        blink 800ms steps(13) infinite normal;
+    border-right: 5px solid black;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    
 
 }
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: black;
+    }
+
+    to {
+        border-color: transparent;
+    }
+}
+
+
+
+
 
 .perfil__info-presentacion span {
     color: red;
