@@ -2,7 +2,12 @@
     width: 100%;
     height: auto;
     border: red solid;
-    padding: 20px;
+    padding:  0px 20px;
+    text-align: center;
+}
+
+.proyectos h1{
+    margin: 5px;
 }
 
 .proyectos-lista {
