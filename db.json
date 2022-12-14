@@ -1,0 +1,20 @@
+{
+  "perfil": [
+    {
+      "id": 1,
+      "nombre": "json-server",
+      "apellido": "typicode",
+      "img":"https://img.freepik.com/foto-gratis/cerrar-hombre-escribiendo-codigo-computadora-portatil_158595-5169.jpg?w=740&t=st=1661593558~exp=1661594158~hmac=d45f7e2517bf577719be14823a71fa688dfc403600db49b9ae42ab119f34a0bez"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
