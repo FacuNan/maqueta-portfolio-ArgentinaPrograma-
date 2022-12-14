@@ -1,7 +1,6 @@
 .proyectos {
     width: 100%;
     height: auto;
-    border: red solid;
     padding:  0px 20px;
     text-align: center;
 }
@@ -11,7 +10,6 @@
 }
 
 .proyectos-lista {
-    border: blue solid;
     width: 100%;
     height: auto;
     padding: 20px 0px;
@@ -22,13 +20,14 @@
 }
 
 .proyecto {
-    border: green solid;
+    border: 1px  black  solid;
     background-color: aliceblue;
     color: black;
     width: 250px;
     height: 300px;
     text-align: center;
     margin: 10px;
+    padding:20px;
 }
 
 .proyecto img {

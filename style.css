@@ -13,7 +13,6 @@ body {
 .Educacion {
     display: flex;
     margin: 30px;
-    border: 2px blue solid;
 }
 
 .anio {
@@ -30,7 +29,8 @@ body {
 }
 
 .educacion {
-    border: 2px red solid;
+    text-align: center;
+    border: white solid 1px;
     margin: 10px;
     height: 100vh;
 }
@@ -45,7 +45,6 @@ body {
 .Experiencia {
     display: flex;
     margin: 30px;
-    border: 2px blue solid;
 }
 
 .anio {
@@ -62,7 +61,8 @@ body {
 }
 
 .experiencia {
-    border: 2px red solid;
+    border: 1px whitesmoke solid;
+    text-align: center;
     margin: 10px;
     height: 100vh;
 }
