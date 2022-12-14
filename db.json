@@ -1,0 +1,41 @@
+{
+  "perfil": [
+    {
+      "id": 1,
+      "nombre": "Facundo",
+      "apellido": "Comercio",
+      "img": "https://img.freepik.com/foto-gratis/cerrar-hombre-escribiendo-codigo-computadora-portatil_158595-5169.jpg?w=740&t=st=1661593558~exp=1661594158~hmac=d45f7e2517bf577719be14823a71fa688dfc403600db49b9ae42ab119f34a0bez",
+      "biografia": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Idsimiliquearchitecto facilis laboriosam distinctio alias suscipit obcaecati itaque, quia cupiditate laborum officiis quaerat labore officia aliquid, explicabo possimus commodi error"
+    }
+  ],
+  "experiencia": [
+    {
+      "id": 1,
+      "puesto": "Full stack developer",
+      "intitucion": "Ministerio de desarrollo de produccion",
+      "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Idsimiliquearchitecto facilis laboriosam distinctio alias suscipit obcaecati itaque, quia cupiditate laborum officiis quaerat labore officia aliquid, explicabo possimus commodi error",
+      "fechaInicio": "some comment",
+      "fechaTerminacion": 1
+    }
+  ],
+  "educacion": [
+    {
+    "id": 1,
+      "titulo": "Full stack developer",
+      "intitucion": "Ministerio de desarrollo de produccion",
+      "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Idsimiliquearchitecto facilis laboriosam distinctio alias suscipit obcaecati itaque, quia cupiditate laborum officiis quaerat labore officia aliquid, explicabo possimus commodi error",
+      "fechaInicio": "some comment",
+      "fechaTerminacion": 1
+  }
+
+],
+
+"proyectos": [
+  {
+    "id":1,
+    "img":"https://img.freepik.com/foto-gratis/cerrar-hombre-escribiendo-codigo-computadora-portatil_158595-5169.jpg?w=740&t=st=1661593558~exp=1661594158~hmac=d45f7e2517bf577719be14823a71fa688dfc403600db49b9ae42ab119f34a0bez",
+    "titulo":"encriptador",
+    "descripcion":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Idsimiliquearchitecto facilis laboriosam distinctio alias suscipit obcaecati itaque, quia cupiditate laborum officiis quaerat labore officia aliquid, explicabo possimus commodi error"
+  }
+]
+}
