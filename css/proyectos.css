@@ -1,0 +1,31 @@
+.proyectos {
+    width: 100%;
+    height: auto;
+    border: red solid;
+    padding: 20px;
+}
+
+.proyectos-lista {
+    border: blue solid;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.proyecto {
+    border: green solid;
+    background-color: aliceblue;
+    color: black;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+.proyecto img {
+    width: 100%;
+}
