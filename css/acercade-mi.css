@@ -12,14 +12,27 @@ justify-content: center;
     display: flex;
     justify-content: center;
   
- 
+}
+
+.btnActualizar{
+    display: none;
+}
+
+.edicion-biografia{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:  20px;
 }
 
 .icon-edicionBiografia{
     margin : 10px 20px;
 }
 
-
+.input-biografia{
+    display:none;
+}
 .nombre {
     width: 100%;
 }
@@ -42,7 +55,7 @@ justify-content: center;
 }
 
 .informacion_basica{
-    border: whitesmoke solid;
+    border: whitesmoke solid 1px;
     background-color: rgba(0,0,0,0.7);
     width: 50%;
     height:50vh;
@@ -56,8 +69,9 @@ justify-content: center;
 }
 
 .informacion__basica-descripcion{
-    border: whitesmoke solid;
-    padding:20px;
-    width:50%;
+    border: whitesmoke solid 1px;
+    padding:30px;
+    width:70%;
+    height: 80vh;
     background-color: rgba(0,0,0,0.7);
 }

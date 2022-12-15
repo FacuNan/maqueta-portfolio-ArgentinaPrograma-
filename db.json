@@ -8,6 +8,12 @@
       "biografia": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Idsimiliquearchitecto facilis laboriosam distinctio alias suscipit obcaecati itaque, quia cupiditate laborum officiis quaerat labore officia aliquid, explicabo possimus commodi error"
     }
   ],
+  "biografia": [
+    {
+      "id": 1,
+      "biografia": "Mi nombre es Facundo Comercio y soy desarrollador full Stack developer Junior. \nInicie mis estudios en programación en Argentina Programa"
+    }
+  ],
   "experiencia": [
     {
       "id": 1,
