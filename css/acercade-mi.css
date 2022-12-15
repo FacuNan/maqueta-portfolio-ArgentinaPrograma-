@@ -5,13 +5,20 @@
 }
 .informacion{
 display:flex;
+justify-content: center;
 
 }
-
-.button {
-    position: relative;
-    right: 5px;
+.titulo__btn{
+    display: flex;
+    justify-content: center;
+  
+ 
 }
+
+.icon-edicionBiografia{
+    margin : 10px 20px;
+}
+
 
 .nombre {
     width: 100%;
