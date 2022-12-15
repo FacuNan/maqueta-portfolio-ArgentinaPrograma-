@@ -14,15 +14,22 @@
     align-items: center;
     padding: 10px;
     z-index: 1;
-   
+
 }
 
-.perfil__info-img{
-  position: relative;
+.perfil__info-img {
+    position: relative;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .perfil__info-img img {
-   
     border-radius: 50%;
     width: 300px;
     height: 300px;
@@ -37,16 +44,23 @@
 
 .icon__edicion-perfil {
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 5px;
-    position: absolute;
     border-radius: 50%;
-    top: 347px;
+    font-size: 20px;
+    position:absolute;
+    width:35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    bottom:70px;
 }
 
-.fa-pen {
-    margin: 5px;
-    color: aliceblue;
+.fa-pen{
+    color:aliceblue;
+    text-decoration: none;
 }
+
 
 .perfil__info-presentacion {
     border: whitesmoke solid;

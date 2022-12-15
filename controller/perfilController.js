@@ -1,10 +1,17 @@
 import { perfilService } from "../server/perfilService.js";
 
-const obtenerPerfil = (id, nombre, apellido, img, biografia) => {
+const obtenerPerfil = (id, nombre, apellido, img, presentacion) => {
 
-    const contenido = `<img src="${img}"
+    const contenido = `
+    <figure>
+    <a class="icon__edicion-perfil"href="http://127.0.0.1:5500/formularios/formularioPerfil.html?id=${id}"><i class="fa fa-pen fa-sm" ></i></a> 
+    <img src="${img}"
     alt="">
+    <p>${nombre} ${apellido}</p>
+    </figure>
   `
+
+
 
     const imgs = document.createElement('h1');
     imgs.classList.add('titulo')

@@ -1,22 +1,22 @@
 <link rel="stylesheet" href="../css/formularioPerfil.css">
 <body class="formulario">
-	<form action="#" target="" method="get" name="formDatosPersonales">
+	<form action="#" target="" method="get" name="formDatosPersonales" data-form>
 		<h1>Edicion Perfil</h1>
 			<label for="nombre">Nombre</label>
-			<input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+			<input type="text" name="nombre" id="nombre" data-nombre/>
 		
-			<label for="apellidos">Apellido</label>
-			<input type="text" name="apellido" id="apellidos" placeholder="1r Apellido"/>
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido" id="apellidos" placeholder="1r Apellido" data-apellido/>
 		
-			<label for="email" />img</label>
-			<input type="text" name="img" id="email" placeholder="text" required />
+			<label for="img" />img</label>
+			<input type="text" name="img" id="email" placeholder="text" required data-img/>
 		
-			<label for="asunto">biografia</label>
-			<input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/>
+			<label for="biografia">biografia</label>
+			<input type ="text" name="biografia" id="biografia" placeholder="titular de la consulta" data-biografia/>
 		
 			
 			
 			<input type="submit" name="enviar" value="enviar datos"/>
 		</form>
-		
+		<script src="../controller/actualizarPerfil.js" type="module"></script>
 </body>
