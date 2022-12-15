@@ -15,6 +15,11 @@ body {
     margin: 30px;
 }
 
+.contenido-educacion {
+    display: flex;
+    margin: 30px;
+}
+
 .anio {
     background-color: red;
     width: 30%;
@@ -43,6 +48,11 @@ body {
 
 
 .Experiencia {
+    display: flex;
+    margin: 30px;
+}
+
+.contenido-experiencia {
     display: flex;
     margin: 30px;
 }

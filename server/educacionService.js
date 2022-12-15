@@ -31,7 +31,7 @@ const eliminarEducacion =(id)=>{
 }
 
 
-export const experienciaService ={
+export const educacionService ={
     obtenerEducacion,
     detallesEducacion,
     agregarEducacion,

@@ -12,20 +12,20 @@
     {
       "id": 1,
       "puesto": "Full stack developer",
-      "intitucion": "Ministerio de desarrollo de produccion",
+      "institucion": "Ministerio de desarrollo de produccion",
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Idsimiliquearchitecto facilis laboriosam distinctio alias suscipit obcaecati itaque, quia cupiditate laborum officiis quaerat labore officia aliquid, explicabo possimus commodi error",
-      "fechaInicio": "some comment",
-      "fechaTerminacion": 1
+      "fechaInicio": "2018",
+      "fechaTerminacion": "2022"
     }
   ],
   "educacion": [
     {
       "id": 1,
       "titulo": "Full stack developer",
-      "intitucion": "Ministerio de desarrollo de produccion",
+      "institucion": "Ministerio de desarrollo de produccion",
       "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Idsimiliquearchitecto facilis laboriosam distinctio alias suscipit obcaecati itaque, quia cupiditate laborum officiis quaerat labore officia aliquid, explicabo possimus commodi error",
-      "fechaInicio": "some comment",
-      "fechaTerminacion": 1
+      "fechaInicio": "2018",
+      "fechaTerminacion": "2022"
     }
   ],
   "proyectos": [
