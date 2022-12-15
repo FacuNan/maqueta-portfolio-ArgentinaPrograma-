@@ -14,18 +14,38 @@
     align-items: center;
     padding: 10px;
     z-index: 1;
+   
+}
+
+.perfil__info-img{
+  position: relative;
 }
 
 .perfil__info-img img {
+   
     border-radius: 50%;
     width: 300px;
     height: 300px;
     border: whitesmoke solid;
     transition: all 500ms ease-out;
+    margin: 20px 0px 0px;
 }
 
 .perfil__info-img img:hover {
     transform: scale(0.9)
+}
+
+.icon__edicion-perfil {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    position: absolute;
+    border-radius: 50%;
+    top: 347px;
+}
+
+.fa-pen {
+    margin: 5px;
+    color: aliceblue;
 }
 
 .perfil__info-presentacion {
@@ -33,12 +53,12 @@
     background-color: rgba(0, 0, 0, 0.7);
     width: 500px;
     height: 200px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    color:white;
+    color: white;
 }
 
 .perfil__info-presentacion h1 {
@@ -51,7 +71,7 @@
     border-right: 5px solid black;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    
+
 
 }
 

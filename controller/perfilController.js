@@ -3,7 +3,8 @@ import { perfilService } from "../server/perfilService.js";
 const obtenerPerfil = (id, nombre, apellido, img, biografia) => {
 
     const contenido = `<img src="${img}"
-    alt="">`
+    alt="">
+  `
 
     const imgs = document.createElement('h1');
     imgs.classList.add('titulo')
